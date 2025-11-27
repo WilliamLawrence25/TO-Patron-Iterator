@@ -23,11 +23,11 @@ Este patrón:
 - **Aggregate**: Interfaz que define el método para obtener un iterador.
 - **ConcreteAggregate**: Implementa la colección y produce un iterador.
 
-![Diagrama](https://refactoring.guru/images/patterns/diagrams/iterator/structure-en.png)
+![Diagrama UML](docs/iterator_uml.png)
 
 ---
 
-# 🇵🇪 Ejemplo en Python
+# 🐍Ejemplo en Python
 
 Este ejemplo fue mostrado en diapositivas y es la base para los otros lenguajes.
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 ---
 
-# 🇺🇸 Ejemplo equivalente en C++
+# 💻Ejemplo equivalente en C++
 
 ```cpp
 #include <iostream>
@@ -228,7 +228,7 @@ Este repositorio sirve para:
 # ✔️ Estructura del Repositorio
 
 ```
-iterator-pattern/
+TO-PATRON-ITERATOR/
 │── cpp/
 │   └── iterator.cpp
 │── java/
@@ -236,6 +236,8 @@ iterator-pattern/
 │── python/
 │   └── iterator.py
 │── README.md
+└── docs/
+      └── iterator_uml.png
 ```
 
 ---

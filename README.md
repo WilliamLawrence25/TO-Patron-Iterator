@@ -18,10 +18,11 @@ Este patrón:
 
 ## 🧩 Componentes del Patrón
 
-- **Iterator**: Define los métodos de recorrido (`next()`, `hasNext()`).
-- **ConcreteIterator**: Implementa la forma específica de recorrer una colección.
-- **Aggregate**: Interfaz que define el método para obtener un iterador.
-- **ConcreteAggregate**: Implementa la colección y produce un iterador.
+- **Iterator**: Interfaz que define los métodos de recorrido (`getNext()`, `hasMore()`).
+- **ConcreteIterator**: Implementa la lógica de iteración manteniendo el estado interno y una referencia a la colección.
+- **IterableCollection**: Interfaz que define el método para crear un iterador (`createIterator()`).
+- **ConcreteCollection**: Implementa la colección y crea una instancia del iterador correspondiente.
+
 
 ![Diagrama UML](docs/iterator_uml.png)
 
